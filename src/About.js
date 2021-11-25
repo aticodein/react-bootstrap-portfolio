@@ -8,13 +8,13 @@ export const About = () => (
                 About
             </h2>
             <CardDeck>
-  <Card bg="light" border="primary"  style={{ margin: '5px' }} >
+  <Card bg="light" border="primary"  style={{ margin: '45px' }} >
     <Container>  
        <Image src={require('./assets/images/ati.JPG')} fluid />
     </Container>
     <Card.Body>
       <Card.Title><p><strong>Full Stack Web Developer</strong></p></Card.Title>
-      <Card.Text>
+      <Card.Text style={{ border: "2px solid blue", padding: "25px", margin: '45px' }}>
             <p>HTML5, CSS3, JavaScript, React, Python,
                Django, AWS, MongoDB, Flask</p>
             <p>Github, Gitpod, Heroku, Github Pages</p>
